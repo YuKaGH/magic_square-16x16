@@ -1,0 +1,345 @@
+import numpy as np
+from itertools import combinations, permutations
+
+# Исходные блоки 2x2
+blocks = [
+    [[28, 21], [38, 43]],  # 0
+    [[55, 58], [9, 8]],    # 1
+    [[37, 44], [27, 22]],  # 2
+    [[39, 42], [25, 24]],  # 3
+    [[48, 33], [18, 31]],  # 4
+    [[17, 32], [47, 34]],  # 5
+    [[12, 5], [54, 59]],   # 6
+    [[1, 16], [63, 50]],   # 7
+    [[53, 60], [11, 6]],   # 8
+    [[19, 30], [45, 36]],  # 9
+    [[62, 51], [4, 13]],   # 10
+    [[46, 35], [20, 29]],  # 11
+    [[3, 14], [61, 52]],   # 12
+    [[64, 49], [2, 15]],   # 13
+    [[10, 7], [56, 57]],   # 14
+    [[26, 23], [40, 41]]   # 15
+]
+
+TARGET = 260
+
+# Вычисляем свойства каждого блока
+block_props = []
+for idx, block in enumerate(blocks):
+    row1 = block[0][0] + block[0][1]    # верхняя строка блока
+    row2 = block[1][0] + block[1][1]    # нижняя строка блока
+    col1 = block[0][0] + block[1][0]    # левый столбец блока
+    col2 = block[0][1] + block[1][1]    # правый столбец блока
+    main_diag = block[0][0] + block[1][1]   # главная диагональ блока
+    anti_diag = block[0][1] + block[1][0]   # побочная диагональ блока
+    
+    block_props.append({
+        'id': idx,
+        'row1': row1, 'row2': row2,
+        'col1': col1, 'col2': col2,
+        'main_diag': main_diag, 'anti_diag': anti_diag,
+        'matrix': block  # сам блок
+    })
+
+print("Вычисляем свойства блоков...")
+for i, prop in enumerate(block_props):
+    print(f"Блок {i:2d}: row1={prop['row1']:3d}, row2={prop['row2']:3d}, "
+          f"col1={prop['col1']:3d}, col2={prop['col2']:3d}, "
+          f"main_diag={prop['main_diag']:3d}, anti_diag={prop['anti_diag']:3d}")
+
+# Шаг 1: Найти все наборы из 4 блоков для главной диагонали
+print("\n1. Поиск наборов для главной диагонали (сумма главных диагоналей = 260)...")
+main_sets = []
+for combo in combinations(range(16), 4):
+    if sum(block_props[i]['main_diag'] for i in combo) == TARGET:
+        main_sets.append(set(combo))
+print(f"   Найдено {len(main_sets)} наборов")
+
+# Шаг 2: Найти все наборы из 4 блоков для побочной диагонали
+print("2. Поиск наборов для побочной диагонали (сумма побочных диагоналей = 260)...")
+anti_sets = []
+for combo in combinations(range(16), 4):
+    if sum(block_props[i]['anti_diag'] for i in combo) == TARGET:
+        anti_sets.append(set(combo))
+print(f"   Найдено {len(anti_sets)} наборов")
+
+# Шаг 3: Найти пары наборов без пересечений (убираем симметричные)
+print("3. Поиск уникальных пар без пересечений...")
+valid_pairs_set = set()  # используем множество для уникальности
+
+for main_set in main_sets:
+    for anti_set in anti_sets:
+        if main_set.isdisjoint(anti_set):
+            # Преобразуем в отсортированные кортежи для сравнения
+            main_tuple = tuple(sorted(main_set))
+            anti_tuple = tuple(sorted(anti_set))
+            
+            # Упорядочиваем пару: меньший кортеж идет первым
+            if main_tuple < anti_tuple:
+                pair_key = (main_tuple, anti_tuple)
+            else:
+                pair_key = (anti_tuple, main_tuple)
+            
+            valid_pairs_set.add(pair_key)
+
+# Преобразуем обратно в списки set'ов
+valid_pairs = [(set(main), set(anti)) for main, anti in valid_pairs_set]
+print(f"   Найдено {len(valid_pairs)} уникальных пар")
+
+# Функция для построения квадрата 8x8 из сетки 4x4 индексов блоков
+def build_8x8(grid_4x4):
+    """Собирает квадрат 8x8 из сетки 4x4 блоков"""
+    grid_8x8 = np.zeros((8, 8), dtype=int)
+    for i in range(4):
+        for j in range(4):
+            block_idx = grid_4x4[i][j]
+            block = blocks[block_idx]
+            r_start, c_start = i*2, j*2
+            grid_8x8[r_start:r_start+2, c_start:c_start+2] = block
+    return grid_8x8
+
+# Функция проверки решения
+def is_solution(grid_8x8):
+    """Проверяет, является ли квадрат 8x8 магическим квадратом"""
+    # Проверка строк (8 строк)
+    for row in range(8):
+        if np.sum(grid_8x8[row, :]) != TARGET:
+            return False
+    
+    # Проверка столбцов (8 столбцов)
+    for col in range(8):
+        if np.sum(grid_8x8[:, col]) != TARGET:
+            return False
+    
+    # Проверка главной диагонали
+    if np.sum(np.diag(grid_8x8)) != TARGET:
+        return False
+    
+    # Проверка побочной диагонали
+    if np.sum(np.diag(np.fliplr(grid_8x8))) != TARGET:
+        return False
+    
+    return True
+
+# Функция проверки строк и столбцов сетки 4x4
+def check_rows_and_cols(grid_4x4):
+    """Проверяет условия для строк и столбцов сетки 4x4"""
+    # Проверяем все строки
+    for row in range(4):
+        row_blocks = grid_4x4[row]
+        # Сумма верхних строк всех 4 блоков в строке
+        top_sum = sum(block_props[b]['row1'] for b in row_blocks)
+        # Сумма нижних строк всех 4 блоков в строке
+        bottom_sum = sum(block_props[b]['row2'] for b in row_blocks)
+        if top_sum != TARGET or bottom_sum != TARGET:
+            return False
+    
+    # Проверяем все столбцы
+    for col in range(4):
+        col_blocks = [grid_4x4[row][col] for row in range(4)]
+        # Сумма левых столбцов всех 4 блоков в столбце
+        left_sum = sum(block_props[b]['col1'] for b in col_blocks)
+        # Сумма правых столбцов всех 4 блоков в столбце
+        right_sum = sum(block_props[b]['col2'] for b in col_blocks)
+        if left_sum != TARGET or right_sum != TARGET:
+            return False
+    
+    return True
+
+# Backtracking для заполнения оставшихся позиций
+def backtrack_fill(grid_4x4, used_blocks, solutions_found, solution_id):
+    """Рекурсивно заполняет свободные позиции в сетке 4x4"""
+    # Ищем первую свободную позицию
+    for row in range(4):
+        for col in range(4):
+            if grid_4x4[row][col] == -1:
+                # Пробуем каждый из неиспользованных блоков
+                for block_id in range(16):
+                    if not used_blocks[block_id]:
+                        # Проверяем, что блок можно поставить на эту позицию
+                        # (пока без проверки ограничений, они будут проверены в конце)
+                        grid_4x4[row][col] = block_id
+                        used_blocks[block_id] = True
+                        
+                        # Рекурсивно заполняем следующую позицию
+                        backtrack_fill(grid_4x4, used_blocks, solutions_found, solution_id)
+                        
+                        # Откатываем изменения
+                        used_blocks[block_id] = False
+                        grid_4x4[row][col] = -1
+                return  # возвращаемся после проверки всех вариантов для этой позиции
+    
+    # Если мы здесь, то все позиции заполнены
+    # Проверяем строки и столбцы
+    if check_rows_and_cols(grid_4x4):
+        # Строим квадрат 8x8 и проверяем его
+        grid_8x8 = build_8x8(grid_4x4)
+        if is_solution(grid_8x8):
+            # Сохраняем решение
+            solution = {
+                'id': solution_id[0],
+                'grid_4x4': [row[:] for row in grid_4x4],
+                'grid_8x8': grid_8x8.copy()
+            }
+            solutions_found.append(solution)
+            solution_id[0] += 1
+
+# Основной цикл поиска
+print("\n4. Начинаем перебор всех пар диагоналей...")
+solutions = []
+solution_counter = [1]  # используем список для модификации в рекурсии
+
+total_diagonal_placements = 0
+solutions_found_count = 0
+
+for pair_idx, (main_set, anti_set) in enumerate(valid_pairs):
+    print(f"\nОбрабатываем пару {pair_idx+1}/{len(valid_pairs)}")
+    print(f"  Главная диагональ: {sorted(main_set)}")
+    print(f"  Побочная диагональ: {sorted(anti_set)}")
+    
+    # Все перестановки для главной диагонали (4! = 24)
+    main_perms = list(permutations(main_set))
+    # Все перестановки для побочной диагонали (4! = 24)
+    anti_perms = list(permutations(anti_set))
+    
+    print(f"  Перебираем {len(main_perms)} × {len(anti_perms)} = {len(main_perms)*len(anti_perms)} размещений диагоналей")
+    
+    # Перебираем все размещения диагоналей
+    for main_perm in main_perms:
+        for anti_perm in anti_perms:
+            total_diagonal_placements += 1
+            
+            # Создаем пустую сетку 4x4
+            grid_4x4 = [[-1 for _ in range(4)] for _ in range(4)]
+            
+            # Размещаем главную диагональ (позиции (0,0), (1,1), (2,2), (3,3))
+            for i in range(4):
+                grid_4x4[i][i] = main_perm[i]
+            
+            # Размещаем побочную диагональ (позиции (0,3), (1,2), (2,1), (3,0))
+            for i in range(4):
+                grid_4x4[i][3-i] = anti_perm[i]
+            
+            # Определяем использованные блоки (8 блоков на диагоналях)
+            used_blocks = [False] * 16
+            for i in range(4):
+                used_blocks[main_perm[i]] = True
+                used_blocks[anti_perm[i]] = True
+            
+            # Запускаем backtracking для заполнения оставшихся 8 позиций
+            backtrack_fill(grid_4x4, used_blocks, solutions, solution_counter)
+
+print(f"\nПеребор завершен!")
+print(f"Всего рассмотрено размещений диагоналей: {total_diagonal_placements}")
+print(f"Найдено решений: {len(solutions)}")
+
+# Выводим все найденные решения
+if solutions:
+    print("\n" + "="*60)
+    print(f"ВСЕ НАЙДЕННЫЕ РЕШЕНИЯ ({len(solutions)} штук):")
+    print("="*60)
+    
+    for sol in solutions:
+        print(f"\nРешение #{sol['id']}:")
+        print("Сетка 4x4 (индексы блоков):")
+        for row in sol['grid_4x4']:
+            print("  " + " ".join(f"{idx:2d}" for idx in row))
+        
+        print("\nКвадрат 8x8:")
+        grid_8x8 = sol['grid_8x8']
+        for i in range(8):
+            row_str = "  ".join(f"{num:2d}" for num in grid_8x8[i])
+            print(f"  {row_str}")
+        
+        # Проверяем суммы
+        print("\nПроверка сумм:")
+        # Строки
+        row_sums = [np.sum(grid_8x8[i, :]) for i in range(8)]
+        print(f"  Строки: {row_sums} {'✓' if all(s == TARGET for s in row_sums) else '✗'}")
+        # Столбцы
+        col_sums = [np.sum(grid_8x8[:, i]) for i in range(8)]
+        print(f"  Столбцы: {col_sums} {'✓' if all(s == TARGET for s in col_sums) else '✗'}")
+        # Диагонали
+        main_diag_sum = np.sum(np.diag(grid_8x8))
+        anti_diag_sum = np.sum(np.diag(np.fliplr(grid_8x8)))
+        print(f"  Главная диагональ: {main_diag_sum} {'✓' if main_diag_sum == TARGET else '✗'}")
+        print(f"  Побочная диагональ: {anti_diag_sum} {'✓' if anti_diag_sum == TARGET else '✗'}")
+        print("-"*60)
+    
+    # Анализ симметрий и уникальности
+    print("\n" + "="*60)
+    print("АНАЛИЗ РЕШЕНИЙ:")
+    print("="*60)
+    
+    # Проверяем уникальность (без учета поворотов и отражений)
+    unique_solutions = []
+    unique_grids = set()
+    
+    for sol in solutions:
+        # Преобразуем сетку 4x4 в кортеж кортежей для хэширования
+        grid_tuple = tuple(tuple(row) for row in sol['grid_4x4'])
+        if grid_tuple not in unique_grids:
+            unique_grids.add(grid_tuple)
+            unique_solutions.append(sol)
+    
+    print(f"Уникальных решений (без учета поворотов и отражений): {len(unique_solutions)}")
+    
+    # Если найдены решения, покажем первое уникальное в компактном виде
+    if unique_solutions:
+        print("\nПервое уникальное решение (компактный вид):")
+        sol = unique_solutions[0]
+        print("Индексы блоков в сетке 4x4:")
+        for row in sol['grid_4x4']:
+            print("  " + " ".join(f"{idx:2d}" for idx in row))
+        
+        # Также покажем как выглядит квадрат 8x8
+        print("\nВизуализация квадрата 8x8:")
+        grid_8x8 = sol['grid_8x8']
+        for i in range(8):
+            if i % 2 == 0 and i > 0:
+                print("  " + "-"*35)  # разделитель между группами строк
+            row_str = ""
+            for j in range(8):
+                if j % 2 == 0 and j > 0:
+                    row_str += "| "
+                row_str += f"{grid_8x8[i][j]:2d} "
+            print("  " + row_str)
+    
+    # Сохраняем все решения в файл
+    with open("magic_square_solutions.txt", "w") as f:
+        f.write(f"Всего найдено решений: {len(solutions)}\n")
+        f.write(f"Уникальных решений: {len(unique_solutions)}\n\n")
+        
+        for sol_idx, sol in enumerate(solutions, 1):
+            f.write(f"Решение #{sol['id']}:\n")
+            f.write("Сетка 4x4 (индексы блоков):\n")
+            for row in sol['grid_4x4']:
+                f.write("  " + " ".join(f"{idx:2d}" for idx in row) + "\n")
+            
+            f.write("\nКвадрат 8x8:\n")
+            grid_8x8 = sol['grid_8x8']
+            for i in range(8):
+                row_str = "  ".join(f"{num:2d}" for num in grid_8x8[i])
+                f.write(f"  {row_str}\n")
+            
+            f.write("\n" + "-"*50 + "\n\n")
+    
+    print(f"\nВсе решения сохранены в файл 'magic_square_solutions.txt'")
+else:
+    print("\nРешений не найдено!")
+
+# Дополнительная статистика
+print("\n" + "="*60)
+print("СТАТИСТИКА:")
+print("="*60)
+print(f"Всего блоков: 16")
+print(f"Целевая сумма: {TARGET}")
+print(f"Наборов для главной диагонали: {len(main_sets)}")
+print(f"Наборов для побочной диагонали: {len(anti_sets)}")
+print(f"Уникальных пар диагоналей: {len(valid_pairs)}")
+print(f"Всего размещений диагоналей: {total_diagonal_placements}")
+print(f"Всего проверенных комбинаций: {total_diagonal_placements} × (8! для оставшихся блоков)")
+print(f"Найдено решений: {len(solutions)}")
+if solutions:
+    print(f"Уникальных решений: {len(unique_solutions)}")
+print("="*60)
