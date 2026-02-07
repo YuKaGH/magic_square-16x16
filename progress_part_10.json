@@ -1,0 +1,7153 @@
+{
+  "part_number": 10,
+  "processed_pairs": 427,
+  "total_solutions_found": 9237760,
+  "top10_pairs": [
+    {
+      "pair_index": 4164,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 93184
+    },
+    {
+      "pair_index": 3859,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 85504
+    },
+    {
+      "pair_index": 4209,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 62464
+    },
+    {
+      "pair_index": 4011,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 57600
+    },
+    {
+      "pair_index": 4197,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "solutions_count": 56448
+    },
+    {
+      "pair_index": 3869,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 4041,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 4127,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 4201,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "solutions_count": 47232
+    },
+    {
+      "pair_index": 4074,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 46592
+    }
+  ],
+  "distribution": {
+    "19456": 2,
+    "38912": 2,
+    "11456": 11,
+    "18560": 8,
+    "13728": 12,
+    "20992": 6,
+    "19072": 19,
+    "14176": 3,
+    "21952": 8,
+    "9280": 3,
+    "18704": 2,
+    "16384": 8,
+    "27904": 2,
+    "18368": 6,
+    "85504": 1,
+    "31168": 4,
+    "16704": 4,
+    "32000": 5,
+    "19584": 3,
+    "23552": 3,
+    "52224": 3,
+    "17088": 22,
+    "17680": 2,
+    "16960": 3,
+    "33536": 2,
+    "25856": 2,
+    "9536": 6,
+    "17312": 2,
+    "17536": 5,
+    "33728": 2,
+    "22912": 6,
+    "28672": 1,
+    "18688": 3,
+    "16896": 4,
+    "19392": 2,
+    "26880": 2,
+    "29184": 2,
+    "20224": 3,
+    "21760": 4,
+    "17136": 1,
+    "18944": 1,
+    "14112": 7,
+    "22400": 2,
+    "22384": 2,
+    "19680": 2,
+    "24192": 2,
+    "24576": 16,
+    "45056": 1,
+    "27200": 1,
+    "22576": 2,
+    "18816": 6,
+    "16512": 7,
+    "43008": 2,
+    "43648": 2,
+    "15456": 4,
+    "28416": 2,
+    "31808": 5,
+    "14528": 1,
+    "17152": 3,
+    "18176": 5,
+    "15040": 1,
+    "16320": 2,
+    "20032": 5,
+    "10880": 1,
+    "17104": 1,
+    "19936": 1,
+    "20416": 2,
+    "11648": 1,
+    "21504": 5,
+    "25728": 2,
+    "28544": 2,
+    "29696": 2,
+    "15776": 3,
+    "21376": 1,
+    "15552": 5,
+    "28736": 2,
+    "15104": 11,
+    "21984": 1,
+    "24128": 4,
+    "17024": 2,
+    "13952": 2,
+    "16192": 1,
+    "21056": 2,
+    "38144": 1,
+    "29440": 5,
+    "46080": 1,
+    "25984": 1,
+    "57600": 1,
+    "30208": 1,
+    "14848": 2,
+    "37376": 1,
+    "17632": 3,
+    "14080": 2,
+    "17184": 2,
+    "24960": 3,
+    "36736": 2,
+    "36864": 1,
+    "12352": 1,
+    "17376": 2,
+    "17344": 1,
+    "12032": 4,
+    "20736": 4,
+    "26560": 1,
+    "20928": 1,
+    "38528": 2,
+    "17408": 3,
+    "12800": 2,
+    "46592": 1,
+    "17264": 5,
+    "20480": 3,
+    "17920": 4,
+    "16128": 4,
+    "28352": 3,
+    "21248": 1,
+    "32384": 1,
+    "11328": 2,
+    "32256": 1,
+    "16672": 1,
+    "23744": 1,
+    "27328": 1,
+    "25088": 3,
+    "93184": 1,
+    "31104": 1,
+    "31872": 1,
+    "19776": 1,
+    "32768": 1,
+    "44032": 1,
+    "18208": 1,
+    "24240": 1,
+    "56448": 1,
+    "24704": 1,
+    "47232": 1,
+    "15232": 1,
+    "20384": 1,
+    "62464": 1,
+    "34176": 1,
+    "28064": 1,
+    "28928": 1,
+    "15680": 1,
+    "37696": 1,
+    "27392": 1,
+    "24320": 1,
+    "30848": 1,
+    "18080": 1,
+    "29312": 1,
+    "39744": 1,
+    "25600": 1,
+    "23680": 1,
+    "18752": 1
+  },
+  "all_results": [
+    {
+      "pair_index": 3843,
+      "main_diag": [
+        2,
+        8,
+        10,
+        15
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 19456
+    },
+    {
+      "pair_index": 3844,
+      "main_diag": [
+        0,
+        1,
+        8,
+        14
+      ],
+      "anti_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "solutions_count": 38912
+    },
+    {
+      "pair_index": 3845,
+      "main_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3846,
+      "main_diag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 3847,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        10
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 3848,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        5,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 3849,
+      "main_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 3850,
+      "main_diag": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 3851,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        5,
+        6,
+        8,
+        13
+      ],
+      "solutions_count": 14176
+    },
+    {
+      "pair_index": 3852,
+      "main_diag": [
+        2,
+        6,
+        9,
+        10
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        14
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3853,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 9280
+    },
+    {
+      "pair_index": 3854,
+      "main_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "anti_diag": [
+        2,
+        6,
+        10,
+        12
+      ],
+      "solutions_count": 18704
+    },
+    {
+      "pair_index": 3855,
+      "main_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 3856,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "solutions_count": 27904
+    },
+    {
+      "pair_index": 3857,
+      "main_diag": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 3858,
+      "main_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        7,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 18704
+    },
+    {
+      "pair_index": 3859,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 85504
+    },
+    {
+      "pair_index": 3860,
+      "main_diag": [
+        1,
+        10,
+        12,
+        14
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3861,
+      "main_diag": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 3862,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 31168
+    },
+    {
+      "pair_index": 3863,
+      "main_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 3864,
+      "main_diag": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 16704
+    },
+    {
+      "pair_index": 3865,
+      "main_diag": [
+        2,
+        3,
+        8,
+        13
+      ],
+      "anti_diag": [
+        7,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 32000
+    },
+    {
+      "pair_index": 3866,
+      "main_diag": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 19584
+    },
+    {
+      "pair_index": 3867,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        15
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 3868,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 23552
+    },
+    {
+      "pair_index": 3869,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 3870,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        2,
+        4,
+        9,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3871,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "solutions_count": 17680
+    },
+    {
+      "pair_index": 3872,
+      "main_diag": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "solutions_count": 16960
+    },
+    {
+      "pair_index": 3873,
+      "main_diag": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3874,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3875,
+      "main_diag": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 33536
+    },
+    {
+      "pair_index": 3876,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 3877,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        2,
+        6,
+        7,
+        13
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3878,
+      "main_diag": [
+        1,
+        3,
+        8,
+        10
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 25856
+    },
+    {
+      "pair_index": 3879,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        2,
+        4,
+        9,
+        15
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 3880,
+      "main_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "anti_diag": [
+        5,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 17312
+    },
+    {
+      "pair_index": 3881,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 17536
+    },
+    {
+      "pair_index": 3882,
+      "main_diag": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 33728
+    },
+    {
+      "pair_index": 3883,
+      "main_diag": [
+        2,
+        4,
+        12,
+        14
+      ],
+      "anti_diag": [
+        3,
+        5,
+        6,
+        10
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3884,
+      "main_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        15
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 3885,
+      "main_diag": [
+        1,
+        5,
+        6,
+        10
+      ],
+      "anti_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "solutions_count": 28672
+    },
+    {
+      "pair_index": 3886,
+      "main_diag": [
+        2,
+        4,
+        9,
+        14
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 18688
+    },
+    {
+      "pair_index": 3887,
+      "main_diag": [
+        4,
+        8,
+        9,
+        14
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 16896
+    },
+    {
+      "pair_index": 3888,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3889,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 3890,
+      "main_diag": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 19392
+    },
+    {
+      "pair_index": 3891,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3892,
+      "main_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 26880
+    },
+    {
+      "pair_index": 3893,
+      "main_diag": [
+        0,
+        5,
+        6,
+        15
+      ],
+      "anti_diag": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "solutions_count": 29184
+    },
+    {
+      "pair_index": 3894,
+      "main_diag": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 3895,
+      "main_diag": [
+        3,
+        6,
+        8,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 20224
+    },
+    {
+      "pair_index": 3896,
+      "main_diag": [
+        2,
+        6,
+        10,
+        12
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 14176
+    },
+    {
+      "pair_index": 3897,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 21760
+    },
+    {
+      "pair_index": 3898,
+      "main_diag": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "solutions_count": 17136
+    },
+    {
+      "pair_index": 3899,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "solutions_count": 18944
+    },
+    {
+      "pair_index": 3900,
+      "main_diag": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "anti_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 3901,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3902,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 3903,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "solutions_count": 31168
+    },
+    {
+      "pair_index": 3904,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 22400
+    },
+    {
+      "pair_index": 3905,
+      "main_diag": [
+        0,
+        2,
+        10,
+        12
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 22384
+    },
+    {
+      "pair_index": 3906,
+      "main_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 3907,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3908,
+      "main_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "solutions_count": 19680
+    },
+    {
+      "pair_index": 3909,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 24192
+    },
+    {
+      "pair_index": 3910,
+      "main_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 3911,
+      "main_diag": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3912,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3913,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 25856
+    },
+    {
+      "pair_index": 3914,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 45056
+    },
+    {
+      "pair_index": 3915,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 27200
+    },
+    {
+      "pair_index": 3916,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        2,
+        4,
+        12,
+        14
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3917,
+      "main_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 3918,
+      "main_diag": [
+        1,
+        2,
+        6,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        11,
+        12
+      ],
+      "solutions_count": 32000
+    },
+    {
+      "pair_index": 3919,
+      "main_diag": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 22576
+    },
+    {
+      "pair_index": 3920,
+      "main_diag": [
+        5,
+        10,
+        14,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 3921,
+      "main_diag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 3922,
+      "main_diag": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 3923,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        1,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 3924,
+      "main_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 24192
+    },
+    {
+      "pair_index": 3925,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "solutions_count": 43008
+    },
+    {
+      "pair_index": 3926,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 43648
+    },
+    {
+      "pair_index": 3927,
+      "main_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 15456
+    },
+    {
+      "pair_index": 3928,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 3929,
+      "main_diag": [
+        1,
+        7,
+        13,
+        15
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3930,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 28416
+    },
+    {
+      "pair_index": 3931,
+      "main_diag": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 31808
+    },
+    {
+      "pair_index": 3932,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        1,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 14528
+    },
+    {
+      "pair_index": 3933,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 17152
+    },
+    {
+      "pair_index": 3934,
+      "main_diag": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        11
+      ],
+      "solutions_count": 18176
+    },
+    {
+      "pair_index": 3935,
+      "main_diag": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3936,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "solutions_count": 15040
+    },
+    {
+      "pair_index": 3937,
+      "main_diag": [
+        2,
+        12,
+        13,
+        15
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 16320
+    },
+    {
+      "pair_index": 3938,
+      "main_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "solutions_count": 20032
+    },
+    {
+      "pair_index": 3939,
+      "main_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 20032
+    },
+    {
+      "pair_index": 3940,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        1,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 3941,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 32000
+    },
+    {
+      "pair_index": 3942,
+      "main_diag": [
+        0,
+        3,
+        5,
+        11
+      ],
+      "anti_diag": [
+        2,
+        8,
+        10,
+        15
+      ],
+      "solutions_count": 10880
+    },
+    {
+      "pair_index": 3943,
+      "main_diag": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        3,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 3944,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3945,
+      "main_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 17104
+    },
+    {
+      "pair_index": 3946,
+      "main_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 19936
+    },
+    {
+      "pair_index": 3947,
+      "main_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 20416
+    },
+    {
+      "pair_index": 3948,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        1,
+        9,
+        10,
+        14
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 3949,
+      "main_diag": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        1,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 3950,
+      "main_diag": [
+        1,
+        2,
+        6,
+        14
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "solutions_count": 17536
+    },
+    {
+      "pair_index": 3951,
+      "main_diag": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3952,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 11648
+    },
+    {
+      "pair_index": 3953,
+      "main_diag": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        11
+      ],
+      "solutions_count": 21504
+    },
+    {
+      "pair_index": 3954,
+      "main_diag": [
+        2,
+        4,
+        9,
+        14
+      ],
+      "anti_diag": [
+        3,
+        6,
+        8,
+        15
+      ],
+      "solutions_count": 16704
+    },
+    {
+      "pair_index": 3955,
+      "main_diag": [
+        3,
+        4,
+        7,
+        15
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3956,
+      "main_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "anti_diag": [
+        5,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 25728
+    },
+    {
+      "pair_index": 3957,
+      "main_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        2,
+        4,
+        12,
+        15
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3958,
+      "main_diag": [
+        1,
+        3,
+        9,
+        13
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 28544
+    },
+    {
+      "pair_index": 3959,
+      "main_diag": [
+        3,
+        6,
+        8,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 33536
+    },
+    {
+      "pair_index": 3960,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 3961,
+      "main_diag": [
+        1,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        5,
+        6,
+        8,
+        13
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 3962,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "solutions_count": 29696
+    },
+    {
+      "pair_index": 3963,
+      "main_diag": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "solutions_count": 15776
+    },
+    {
+      "pair_index": 3964,
+      "main_diag": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        11
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 3965,
+      "main_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "anti_diag": [
+        7,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 21376
+    },
+    {
+      "pair_index": 3966,
+      "main_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 15552
+    },
+    {
+      "pair_index": 3967,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        1,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 28736
+    },
+    {
+      "pair_index": 3968,
+      "main_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        14
+      ],
+      "solutions_count": 19680
+    },
+    {
+      "pair_index": 3969,
+      "main_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 3970,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 21984
+    },
+    {
+      "pair_index": 3971,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3972,
+      "main_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "anti_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "solutions_count": 24128
+    },
+    {
+      "pair_index": 3973,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        7,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 20224
+    },
+    {
+      "pair_index": 3974,
+      "main_diag": [
+        1,
+        5,
+        6,
+        10
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 3975,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 3976,
+      "main_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 3977,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 3978,
+      "main_diag": [
+        2,
+        3,
+        6,
+        14
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 29696
+    },
+    {
+      "pair_index": 3979,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 24128
+    },
+    {
+      "pair_index": 3980,
+      "main_diag": [
+        0,
+        2,
+        10,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 17024
+    },
+    {
+      "pair_index": 3981,
+      "main_diag": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 21952
+    },
+    {
+      "pair_index": 3982,
+      "main_diag": [
+        1,
+        6,
+        7,
+        11
+      ],
+      "anti_diag": [
+        2,
+        8,
+        10,
+        14
+      ],
+      "solutions_count": 13952
+    },
+    {
+      "pair_index": 3983,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        1,
+        3,
+        9,
+        13
+      ],
+      "solutions_count": 32000
+    },
+    {
+      "pair_index": 3984,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 16192
+    },
+    {
+      "pair_index": 3985,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 3986,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 3987,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 21760
+    },
+    {
+      "pair_index": 3988,
+      "main_diag": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "anti_diag": [
+        3,
+        6,
+        8,
+        14
+      ],
+      "solutions_count": 21056
+    },
+    {
+      "pair_index": 3989,
+      "main_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 3990,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        2,
+        3,
+        8,
+        13
+      ],
+      "solutions_count": 38144
+    },
+    {
+      "pair_index": 3991,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "solutions_count": 33728
+    },
+    {
+      "pair_index": 3992,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        14
+      ],
+      "solutions_count": 17024
+    },
+    {
+      "pair_index": 3993,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 3994,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 29440
+    },
+    {
+      "pair_index": 3995,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 19456
+    },
+    {
+      "pair_index": 3996,
+      "main_diag": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "solutions_count": 15776
+    },
+    {
+      "pair_index": 3997,
+      "main_diag": [
+        0,
+        5,
+        6,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 46080
+    },
+    {
+      "pair_index": 3998,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 3999,
+      "main_diag": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4000,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 25984
+    },
+    {
+      "pair_index": 4001,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "solutions_count": 9280
+    },
+    {
+      "pair_index": 4002,
+      "main_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4003,
+      "main_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "solutions_count": 43008
+    },
+    {
+      "pair_index": 4004,
+      "main_diag": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 15456
+    },
+    {
+      "pair_index": 4005,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 4006,
+      "main_diag": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 15776
+    },
+    {
+      "pair_index": 4007,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        10
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4008,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4009,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 31168
+    },
+    {
+      "pair_index": 4010,
+      "main_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        15
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4011,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 57600
+    },
+    {
+      "pair_index": 4012,
+      "main_diag": [
+        3,
+        5,
+        6,
+        10
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 29440
+    },
+    {
+      "pair_index": 4013,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 30208
+    },
+    {
+      "pair_index": 4014,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 14848
+    },
+    {
+      "pair_index": 4015,
+      "main_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 31808
+    },
+    {
+      "pair_index": 4016,
+      "main_diag": [
+        2,
+        6,
+        9,
+        10
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 29440
+    },
+    {
+      "pair_index": 4017,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 4018,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 32000
+    },
+    {
+      "pair_index": 4019,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        14
+      ],
+      "solutions_count": 37376
+    },
+    {
+      "pair_index": 4020,
+      "main_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "solutions_count": 15552
+    },
+    {
+      "pair_index": 4021,
+      "main_diag": [
+        3,
+        10,
+        12,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "solutions_count": 22384
+    },
+    {
+      "pair_index": 4022,
+      "main_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        14
+      ],
+      "solutions_count": 17632
+    },
+    {
+      "pair_index": 4023,
+      "main_diag": [
+        1,
+        10,
+        12,
+        14
+      ],
+      "anti_diag": [
+        2,
+        5,
+        6,
+        13
+      ],
+      "solutions_count": 14080
+    },
+    {
+      "pair_index": 4024,
+      "main_diag": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "solutions_count": 27904
+    },
+    {
+      "pair_index": 4025,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4026,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 17152
+    },
+    {
+      "pair_index": 4027,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "solutions_count": 17184
+    },
+    {
+      "pair_index": 4028,
+      "main_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 17312
+    },
+    {
+      "pair_index": 4029,
+      "main_diag": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4030,
+      "main_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 31808
+    },
+    {
+      "pair_index": 4031,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        2,
+        3,
+        8,
+        13
+      ],
+      "solutions_count": 24960
+    },
+    {
+      "pair_index": 4032,
+      "main_diag": [
+        4,
+        7,
+        9,
+        11
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 38912
+    },
+    {
+      "pair_index": 4033,
+      "main_diag": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 15456
+    },
+    {
+      "pair_index": 4034,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4035,
+      "main_diag": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "anti_diag": [
+        5,
+        9,
+        11,
+        13
+      ],
+      "solutions_count": 19584
+    },
+    {
+      "pair_index": 4036,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 4037,
+      "main_diag": [
+        1,
+        9,
+        10,
+        15
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4038,
+      "main_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 16960
+    },
+    {
+      "pair_index": 4039,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4040,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        14
+      ],
+      "solutions_count": 28736
+    },
+    {
+      "pair_index": 4041,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 4042,
+      "main_diag": [
+        1,
+        3,
+        8,
+        10
+      ],
+      "anti_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "solutions_count": 36736
+    },
+    {
+      "pair_index": 4043,
+      "main_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 4044,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 31168
+    },
+    {
+      "pair_index": 4045,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "solutions_count": 16320
+    },
+    {
+      "pair_index": 4046,
+      "main_diag": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "anti_diag": [
+        1,
+        9,
+        10,
+        14
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 4047,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4048,
+      "main_diag": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4049,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        1,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4050,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "solutions_count": 36864
+    },
+    {
+      "pair_index": 4051,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "solutions_count": 16896
+    },
+    {
+      "pair_index": 4052,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        6,
+        9,
+        12,
+        13
+      ],
+      "solutions_count": 28416
+    },
+    {
+      "pair_index": 4053,
+      "main_diag": [
+        1,
+        10,
+        12,
+        15
+      ],
+      "anti_diag": [
+        2,
+        5,
+        6,
+        13
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4054,
+      "main_diag": [
+        1,
+        7,
+        13,
+        14
+      ],
+      "anti_diag": [
+        2,
+        8,
+        10,
+        15
+      ],
+      "solutions_count": 12352
+    },
+    {
+      "pair_index": 4055,
+      "main_diag": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4056,
+      "main_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4057,
+      "main_diag": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "anti_diag": [
+        3,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 17184
+    },
+    {
+      "pair_index": 4058,
+      "main_diag": [
+        1,
+        9,
+        11,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 20032
+    },
+    {
+      "pair_index": 4059,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "solutions_count": 17376
+    },
+    {
+      "pair_index": 4060,
+      "main_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 29440
+    },
+    {
+      "pair_index": 4061,
+      "main_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 16704
+    },
+    {
+      "pair_index": 4062,
+      "main_diag": [
+        5,
+        11,
+        12,
+        13
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 17632
+    },
+    {
+      "pair_index": 4063,
+      "main_diag": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "anti_diag": [
+        2,
+        8,
+        10,
+        14
+      ],
+      "solutions_count": 17344
+    },
+    {
+      "pair_index": 4064,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        2,
+        4,
+        9,
+        15
+      ],
+      "solutions_count": 12032
+    },
+    {
+      "pair_index": 4065,
+      "main_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 20736
+    },
+    {
+      "pair_index": 4066,
+      "main_diag": [
+        1,
+        3,
+        8,
+        11
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 26560
+    },
+    {
+      "pair_index": 4067,
+      "main_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 20928
+    },
+    {
+      "pair_index": 4068,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 31808
+    },
+    {
+      "pair_index": 4069,
+      "main_diag": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "anti_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4070,
+      "main_diag": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 38528
+    },
+    {
+      "pair_index": 4071,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        4,
+        5,
+        11,
+        12
+      ],
+      "solutions_count": 17408
+    },
+    {
+      "pair_index": 4072,
+      "main_diag": [
+        0,
+        3,
+        8,
+        14
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 20032
+    },
+    {
+      "pair_index": 4073,
+      "main_diag": [
+        0,
+        2,
+        3,
+        14
+      ],
+      "anti_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 12800
+    },
+    {
+      "pair_index": 4074,
+      "main_diag": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 46592
+    },
+    {
+      "pair_index": 4075,
+      "main_diag": [
+        1,
+        5,
+        6,
+        10
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4076,
+      "main_diag": [
+        1,
+        4,
+        7,
+        15
+      ],
+      "anti_diag": [
+        2,
+        5,
+        6,
+        13
+      ],
+      "solutions_count": 17264
+    },
+    {
+      "pair_index": 4077,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 4078,
+      "main_diag": [
+        0,
+        1,
+        8,
+        14
+      ],
+      "anti_diag": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "solutions_count": 20480
+    },
+    {
+      "pair_index": 4079,
+      "main_diag": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 17920
+    },
+    {
+      "pair_index": 4080,
+      "main_diag": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "solutions_count": 21504
+    },
+    {
+      "pair_index": 4081,
+      "main_diag": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4082,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        9
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4083,
+      "main_diag": [
+        3,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "solutions_count": 21504
+    },
+    {
+      "pair_index": 4084,
+      "main_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 17264
+    },
+    {
+      "pair_index": 4085,
+      "main_diag": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "anti_diag": [
+        1,
+        6,
+        8,
+        15
+      ],
+      "solutions_count": 17536
+    },
+    {
+      "pair_index": 4086,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        2,
+        6,
+        7,
+        13
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4087,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        14
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 4088,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        2,
+        4,
+        9,
+        15
+      ],
+      "solutions_count": 16128
+    },
+    {
+      "pair_index": 4089,
+      "main_diag": [
+        1,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        15
+      ],
+      "solutions_count": 17376
+    },
+    {
+      "pair_index": 4090,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 17408
+    },
+    {
+      "pair_index": 4091,
+      "main_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 28544
+    },
+    {
+      "pair_index": 4092,
+      "main_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4093,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 17920
+    },
+    {
+      "pair_index": 4094,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 12032
+    },
+    {
+      "pair_index": 4095,
+      "main_diag": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "anti_diag": [
+        1,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 28352
+    },
+    {
+      "pair_index": 4096,
+      "main_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        15
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 4097,
+      "main_diag": [
+        2,
+        9,
+        13,
+        15
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 20480
+    },
+    {
+      "pair_index": 4098,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4099,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4100,
+      "main_diag": [
+        0,
+        1,
+        6,
+        9
+      ],
+      "anti_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 4101,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        1,
+        7,
+        13,
+        14
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 4102,
+      "main_diag": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "anti_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 20736
+    },
+    {
+      "pair_index": 4103,
+      "main_diag": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 17920
+    },
+    {
+      "pair_index": 4104,
+      "main_diag": [
+        2,
+        6,
+        7,
+        13
+      ],
+      "anti_diag": [
+        4,
+        5,
+        11,
+        12
+      ],
+      "solutions_count": 24128
+    },
+    {
+      "pair_index": 4105,
+      "main_diag": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "anti_diag": [
+        1,
+        3,
+        8,
+        11
+      ],
+      "solutions_count": 21248
+    },
+    {
+      "pair_index": 4106,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "solutions_count": 32384
+    },
+    {
+      "pair_index": 4107,
+      "main_diag": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "anti_diag": [
+        1,
+        7,
+        13,
+        14
+      ],
+      "solutions_count": 11328
+    },
+    {
+      "pair_index": 4108,
+      "main_diag": [
+        0,
+        1,
+        8,
+        14
+      ],
+      "anti_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "solutions_count": 21056
+    },
+    {
+      "pair_index": 4109,
+      "main_diag": [
+        0,
+        3,
+        8,
+        14
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 19392
+    },
+    {
+      "pair_index": 4110,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 18176
+    },
+    {
+      "pair_index": 4111,
+      "main_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 32256
+    },
+    {
+      "pair_index": 4112,
+      "main_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 4113,
+      "main_diag": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 17536
+    },
+    {
+      "pair_index": 4114,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 4115,
+      "main_diag": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "solutions_count": 17680
+    },
+    {
+      "pair_index": 4116,
+      "main_diag": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4117,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 15552
+    },
+    {
+      "pair_index": 4118,
+      "main_diag": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 16128
+    },
+    {
+      "pair_index": 4119,
+      "main_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4120,
+      "main_diag": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "solutions_count": 16672
+    },
+    {
+      "pair_index": 4121,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        5,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 17408
+    },
+    {
+      "pair_index": 4122,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        1,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 14848
+    },
+    {
+      "pair_index": 4123,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4124,
+      "main_diag": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 21760
+    },
+    {
+      "pair_index": 4125,
+      "main_diag": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 28352
+    },
+    {
+      "pair_index": 4126,
+      "main_diag": [
+        1,
+        3,
+        8,
+        11
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 22400
+    },
+    {
+      "pair_index": 4127,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 52224
+    },
+    {
+      "pair_index": 4128,
+      "main_diag": [
+        2,
+        6,
+        7,
+        13
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        15
+      ],
+      "solutions_count": 15552
+    },
+    {
+      "pair_index": 4129,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4130,
+      "main_diag": [
+        3,
+        6,
+        8,
+        15
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 20480
+    },
+    {
+      "pair_index": 4131,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4132,
+      "main_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 14080
+    },
+    {
+      "pair_index": 4133,
+      "main_diag": [
+        0,
+        5,
+        6,
+        15
+      ],
+      "anti_diag": [
+        1,
+        7,
+        13,
+        14
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 4134,
+      "main_diag": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 24960
+    },
+    {
+      "pair_index": 4135,
+      "main_diag": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "solutions_count": 14176
+    },
+    {
+      "pair_index": 4136,
+      "main_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4137,
+      "main_diag": [
+        2,
+        4,
+        9,
+        15
+      ],
+      "anti_diag": [
+        3,
+        5,
+        6,
+        10
+      ],
+      "solutions_count": 12032
+    },
+    {
+      "pair_index": 4138,
+      "main_diag": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "anti_diag": [
+        1,
+        9,
+        10,
+        15
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4139,
+      "main_diag": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "anti_diag": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 4140,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4141,
+      "main_diag": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 23744
+    },
+    {
+      "pair_index": 4142,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        1,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 4143,
+      "main_diag": [
+        1,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "solutions_count": 17264
+    },
+    {
+      "pair_index": 4144,
+      "main_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 4145,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 31808
+    },
+    {
+      "pair_index": 4146,
+      "main_diag": [
+        0,
+        2,
+        3,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 4147,
+      "main_diag": [
+        1,
+        6,
+        7,
+        11
+      ],
+      "anti_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4148,
+      "main_diag": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4149,
+      "main_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 17264
+    },
+    {
+      "pair_index": 4150,
+      "main_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4151,
+      "main_diag": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 27328
+    },
+    {
+      "pair_index": 4152,
+      "main_diag": [
+        3,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4153,
+      "main_diag": [
+        0,
+        3,
+        5,
+        11
+      ],
+      "anti_diag": [
+        6,
+        9,
+        14,
+        15
+      ],
+      "solutions_count": 16128
+    },
+    {
+      "pair_index": 4154,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 4155,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        15
+      ],
+      "solutions_count": 29184
+    },
+    {
+      "pair_index": 4156,
+      "main_diag": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4157,
+      "main_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "solutions_count": 15456
+    },
+    {
+      "pair_index": 4158,
+      "main_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 4159,
+      "main_diag": [
+        0,
+        1,
+        6,
+        9
+      ],
+      "anti_diag": [
+        2,
+        8,
+        10,
+        15
+      ],
+      "solutions_count": 25088
+    },
+    {
+      "pair_index": 4160,
+      "main_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 4161,
+      "main_diag": [
+        1,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "solutions_count": 15552
+    },
+    {
+      "pair_index": 4162,
+      "main_diag": [
+        3,
+        7,
+        13,
+        14
+      ],
+      "anti_diag": [
+        4,
+        5,
+        9,
+        11
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 4163,
+      "main_diag": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        4,
+        9,
+        14
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4164,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        11,
+        12
+      ],
+      "solutions_count": 93184
+    },
+    {
+      "pair_index": 4165,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        12,
+        15
+      ],
+      "solutions_count": 25088
+    },
+    {
+      "pair_index": 4166,
+      "main_diag": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "anti_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "solutions_count": 31104
+    },
+    {
+      "pair_index": 4167,
+      "main_diag": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "anti_diag": [
+        3,
+        6,
+        8,
+        15
+      ],
+      "solutions_count": 31872
+    },
+    {
+      "pair_index": 4168,
+      "main_diag": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        1,
+        5,
+        6,
+        11
+      ],
+      "solutions_count": 28352
+    },
+    {
+      "pair_index": 4169,
+      "main_diag": [
+        1,
+        2,
+        6,
+        14
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 19776
+    },
+    {
+      "pair_index": 4170,
+      "main_diag": [
+        1,
+        3,
+        8,
+        10
+      ],
+      "anti_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "solutions_count": 38528
+    },
+    {
+      "pair_index": 4171,
+      "main_diag": [
+        1,
+        2,
+        6,
+        14
+      ],
+      "anti_diag": [
+        7,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 32768
+    },
+    {
+      "pair_index": 4172,
+      "main_diag": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "anti_diag": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4173,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "solutions_count": 44032
+    },
+    {
+      "pair_index": 4174,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 20736
+    },
+    {
+      "pair_index": 4175,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "solutions_count": 20416
+    },
+    {
+      "pair_index": 4176,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 17264
+    },
+    {
+      "pair_index": 4177,
+      "main_diag": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        11
+      ],
+      "solutions_count": 16896
+    },
+    {
+      "pair_index": 4178,
+      "main_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 17152
+    },
+    {
+      "pair_index": 4179,
+      "main_diag": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 36736
+    },
+    {
+      "pair_index": 4180,
+      "main_diag": [
+        1,
+        3,
+        9,
+        13
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 20224
+    },
+    {
+      "pair_index": 4181,
+      "main_diag": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "anti_diag": [
+        1,
+        6,
+        8,
+        14
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 4182,
+      "main_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        11
+      ],
+      "solutions_count": 24128
+    },
+    {
+      "pair_index": 4183,
+      "main_diag": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        7,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 16896
+    },
+    {
+      "pair_index": 4184,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        7,
+        10,
+        14,
+        15
+      ],
+      "solutions_count": 18208
+    },
+    {
+      "pair_index": 4185,
+      "main_diag": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "anti_diag": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "solutions_count": 11456
+    },
+    {
+      "pair_index": 4186,
+      "main_diag": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        14
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 4187,
+      "main_diag": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "anti_diag": [
+        2,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 4188,
+      "main_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 26880
+    },
+    {
+      "pair_index": 4189,
+      "main_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "anti_diag": [
+        5,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 18176
+    },
+    {
+      "pair_index": 4190,
+      "main_diag": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "anti_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "solutions_count": 19584
+    },
+    {
+      "pair_index": 4191,
+      "main_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "anti_diag": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "solutions_count": 23552
+    },
+    {
+      "pair_index": 4192,
+      "main_diag": [
+        1,
+        9,
+        10,
+        15
+      ],
+      "anti_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4193,
+      "main_diag": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "anti_diag": [
+        7,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 24240
+    },
+    {
+      "pair_index": 4194,
+      "main_diag": [
+        1,
+        10,
+        12,
+        15
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4195,
+      "main_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "anti_diag": [
+        2,
+        8,
+        11,
+        15
+      ],
+      "solutions_count": 11328
+    },
+    {
+      "pair_index": 4196,
+      "main_diag": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4197,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "solutions_count": 56448
+    },
+    {
+      "pair_index": 4198,
+      "main_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4199,
+      "main_diag": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "anti_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 16384
+    },
+    {
+      "pair_index": 4200,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        4,
+        7,
+        10,
+        12
+      ],
+      "solutions_count": 24704
+    },
+    {
+      "pair_index": 4201,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "solutions_count": 47232
+    },
+    {
+      "pair_index": 4202,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        2,
+        6,
+        11,
+        12
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4203,
+      "main_diag": [
+        2,
+        6,
+        9,
+        11
+      ],
+      "anti_diag": [
+        3,
+        4,
+        7,
+        15
+      ],
+      "solutions_count": 18688
+    },
+    {
+      "pair_index": 4204,
+      "main_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "solutions_count": 20992
+    },
+    {
+      "pair_index": 4205,
+      "main_diag": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "solutions_count": 18688
+    },
+    {
+      "pair_index": 4206,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 15232
+    },
+    {
+      "pair_index": 4207,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 4208,
+      "main_diag": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "anti_diag": [
+        1,
+        3,
+        4,
+        12
+      ],
+      "solutions_count": 20384
+    },
+    {
+      "pair_index": 4209,
+      "main_diag": [
+        1,
+        2,
+        8,
+        13
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 62464
+    },
+    {
+      "pair_index": 4210,
+      "main_diag": [
+        3,
+        6,
+        7,
+        11
+      ],
+      "anti_diag": [
+        5,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 21504
+    },
+    {
+      "pair_index": 4211,
+      "main_diag": [
+        1,
+        4,
+        7,
+        15
+      ],
+      "anti_diag": [
+        3,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4212,
+      "main_diag": [
+        1,
+        10,
+        12,
+        14
+      ],
+      "anti_diag": [
+        2,
+        3,
+        8,
+        13
+      ],
+      "solutions_count": 16128
+    },
+    {
+      "pair_index": 4213,
+      "main_diag": [
+        2,
+        6,
+        10,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "solutions_count": 18368
+    },
+    {
+      "pair_index": 4214,
+      "main_diag": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "solutions_count": 13952
+    },
+    {
+      "pair_index": 4215,
+      "main_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "anti_diag": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "solutions_count": 22576
+    },
+    {
+      "pair_index": 4216,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        7,
+        10,
+        12,
+        13
+      ],
+      "solutions_count": 24576
+    },
+    {
+      "pair_index": 4217,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        2,
+        5,
+        6,
+        13
+      ],
+      "solutions_count": 25088
+    },
+    {
+      "pair_index": 4218,
+      "main_diag": [
+        3,
+        10,
+        12,
+        15
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        11
+      ],
+      "solutions_count": 18816
+    },
+    {
+      "pair_index": 4219,
+      "main_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "anti_diag": [
+        7,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 34176
+    },
+    {
+      "pair_index": 4220,
+      "main_diag": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 28064
+    },
+    {
+      "pair_index": 4221,
+      "main_diag": [
+        1,
+        4,
+        5,
+        15
+      ],
+      "anti_diag": [
+        7,
+        11,
+        12,
+        13
+      ],
+      "solutions_count": 17536
+    },
+    {
+      "pair_index": 4222,
+      "main_diag": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "anti_diag": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "solutions_count": 20032
+    },
+    {
+      "pair_index": 4223,
+      "main_diag": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "anti_diag": [
+        5,
+        9,
+        11,
+        13
+      ],
+      "solutions_count": 28928
+    },
+    {
+      "pair_index": 4224,
+      "main_diag": [
+        2,
+        7,
+        10,
+        11
+      ],
+      "anti_diag": [
+        6,
+        9,
+        12,
+        13
+      ],
+      "solutions_count": 16960
+    },
+    {
+      "pair_index": 4225,
+      "main_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "solutions_count": 15680
+    },
+    {
+      "pair_index": 4226,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "solutions_count": 16512
+    },
+    {
+      "pair_index": 4227,
+      "main_diag": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "anti_diag": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 29440
+    },
+    {
+      "pair_index": 4228,
+      "main_diag": [
+        1,
+        3,
+        8,
+        10
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 37696
+    },
+    {
+      "pair_index": 4229,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "solutions_count": 13728
+    },
+    {
+      "pair_index": 4230,
+      "main_diag": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "anti_diag": [
+        7,
+        9,
+        10,
+        13
+      ],
+      "solutions_count": 27392
+    },
+    {
+      "pair_index": 4231,
+      "main_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "anti_diag": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "solutions_count": 17632
+    },
+    {
+      "pair_index": 4232,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 24960
+    },
+    {
+      "pair_index": 4233,
+      "main_diag": [
+        3,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        4,
+        8,
+        9,
+        15
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4234,
+      "main_diag": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "anti_diag": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 4235,
+      "main_diag": [
+        2,
+        3,
+        6,
+        15
+      ],
+      "anti_diag": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 12800
+    },
+    {
+      "pair_index": 4236,
+      "main_diag": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4237,
+      "main_diag": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "anti_diag": [
+        1,
+        4,
+        5,
+        14
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4238,
+      "main_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4239,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        4,
+        5,
+        7,
+        13
+      ],
+      "solutions_count": 16704
+    },
+    {
+      "pair_index": 4240,
+      "main_diag": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "anti_diag": [
+        5,
+        11,
+        14,
+        15
+      ],
+      "solutions_count": 24320
+    },
+    {
+      "pair_index": 4241,
+      "main_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "anti_diag": [
+        5,
+        8,
+        10,
+        11
+      ],
+      "solutions_count": 17920
+    },
+    {
+      "pair_index": 4242,
+      "main_diag": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "anti_diag": [
+        6,
+        12,
+        14,
+        15
+      ],
+      "solutions_count": 30848
+    },
+    {
+      "pair_index": 4243,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "solutions_count": 25728
+    },
+    {
+      "pair_index": 4244,
+      "main_diag": [
+        1,
+        10,
+        12,
+        15
+      ],
+      "anti_diag": [
+        2,
+        3,
+        8,
+        13
+      ],
+      "solutions_count": 21760
+    },
+    {
+      "pair_index": 4245,
+      "main_diag": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "anti_diag": [
+        1,
+        10,
+        12,
+        14
+      ],
+      "solutions_count": 20736
+    },
+    {
+      "pair_index": 4246,
+      "main_diag": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "anti_diag": [
+        6,
+        9,
+        12,
+        13
+      ],
+      "solutions_count": 18080
+    },
+    {
+      "pair_index": 4247,
+      "main_diag": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 4248,
+      "main_diag": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "anti_diag": [
+        1,
+        2,
+        6,
+        14
+      ],
+      "solutions_count": 21504
+    },
+    {
+      "pair_index": 4249,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        14
+      ],
+      "solutions_count": 12032
+    },
+    {
+      "pair_index": 4250,
+      "main_diag": [
+        1,
+        5,
+        13,
+        14
+      ],
+      "anti_diag": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4251,
+      "main_diag": [
+        0,
+        2,
+        10,
+        12
+      ],
+      "anti_diag": [
+        1,
+        4,
+        7,
+        14
+      ],
+      "solutions_count": 15104
+    },
+    {
+      "pair_index": 4252,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        4,
+        6,
+        9,
+        12
+      ],
+      "solutions_count": 29312
+    },
+    {
+      "pair_index": 4253,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4254,
+      "main_diag": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "anti_diag": [
+        2,
+        12,
+        13,
+        14
+      ],
+      "solutions_count": 17088
+    },
+    {
+      "pair_index": 4255,
+      "main_diag": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "anti_diag": [
+        1,
+        3,
+        9,
+        13
+      ],
+      "solutions_count": 39744
+    },
+    {
+      "pair_index": 4256,
+      "main_diag": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "anti_diag": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "solutions_count": 18560
+    },
+    {
+      "pair_index": 4257,
+      "main_diag": [
+        2,
+        8,
+        10,
+        14
+      ],
+      "anti_diag": [
+        6,
+        9,
+        12,
+        13
+      ],
+      "solutions_count": 25600
+    },
+    {
+      "pair_index": 4258,
+      "main_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "anti_diag": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "solutions_count": 23552
+    },
+    {
+      "pair_index": 4259,
+      "main_diag": [
+        1,
+        11,
+        12,
+        14
+      ],
+      "anti_diag": [
+        8,
+        9,
+        13,
+        15
+      ],
+      "solutions_count": 19072
+    },
+    {
+      "pair_index": 4260,
+      "main_diag": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "anti_diag": [
+        3,
+        11,
+        12,
+        14
+      ],
+      "solutions_count": 43648
+    },
+    {
+      "pair_index": 4261,
+      "main_diag": [
+        2,
+        8,
+        10,
+        15
+      ],
+      "anti_diag": [
+        5,
+        9,
+        11,
+        13
+      ],
+      "solutions_count": 23680
+    },
+    {
+      "pair_index": 4262,
+      "main_diag": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "anti_diag": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "solutions_count": 18176
+    },
+    {
+      "pair_index": 4263,
+      "main_diag": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "anti_diag": [
+        3,
+        9,
+        11,
+        14
+      ],
+      "solutions_count": 14112
+    },
+    {
+      "pair_index": 4264,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        1,
+        7,
+        13,
+        15
+      ],
+      "solutions_count": 9536
+    },
+    {
+      "pair_index": 4265,
+      "main_diag": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "anti_diag": [
+        4,
+        5,
+        11,
+        12
+      ],
+      "solutions_count": 18176
+    },
+    {
+      "pair_index": 4266,
+      "main_diag": [
+        1,
+        9,
+        10,
+        14
+      ],
+      "anti_diag": [
+        6,
+        7,
+        8,
+        13
+      ],
+      "solutions_count": 22912
+    },
+    {
+      "pair_index": 4267,
+      "main_diag": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "anti_diag": [
+        3,
+        4,
+        5,
+        14
+      ],
+      "solutions_count": 18752
+    },
+    {
+      "pair_index": 4268,
+      "main_diag": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "anti_diag": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "solutions_count": 9280
+    },
+    {
+      "pair_index": 4269,
+      "main_diag": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "anti_diag": [
+        6,
+        9,
+        12,
+        13
+      ],
+      "solutions_count": 21952
+    }
+  ],
+  "timestamp": "2026-02-06 18:57:28"
+}
